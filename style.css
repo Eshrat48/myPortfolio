@@ -1,0 +1,157 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url('photo/Eshrat\ Kamal\ Nova\ \(1\).png'); 
+    background-size: 80% 300px; 
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #f5eeee;
+    padding: 20px 0;
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+}
+
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    
+}
+
+nav {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.nav-link {
+    font-size: 0.9em;
+    padding: 5px 5px;
+    color: #d8dfe1;
+}
+
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+h2 {
+    color: #0f5472;
+    border-bottom: 2px solid #0f5472;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+
+.section {
+    margin-bottom: 20px;
+    background-color: #d9e6f0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #0f5472;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+a {
+    color: #0f5472;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.big-text {
+    font-size: 16px;
+    color: #0b3954;
+    font-weight: bold;
+}
+
+.highlight {
+    color: #007acc;
+    font-weight: bold;
+}
+
+.favorite-books {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.book {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.book img {
+    width: 100px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.book h3 {
+    margin: 0;
+    color: #0f5472;
+}
+
+.book p {
+    margin: 5px 0;
+    color: #555;
+}
+
